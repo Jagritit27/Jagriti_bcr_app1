@@ -27,6 +27,7 @@ df = pd.read_csv('D:/ARI_BCR_ALL/Scenarios/halvesediment/HalveSediment_20M-Summa
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc_css])
+server = app.server
 app.layout = html.Div([
         html.Div([
         dcc.Graph(id='graph_scatter',figure={},className="mb-4", style={'display': 'inline-block','height': '700px', 'width': '1000px'}),
