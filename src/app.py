@@ -23,7 +23,7 @@ from IPython.display import HTML
 from dash import Dash, dcc, html, Input, Output, dash_table
 from dash.exceptions import PreventUpdate
 
-df = pd.read_csv('https://github.com/Jagritit27/bcr_app1/blob/main/HalveSediment_20M-Summary12.csv')
+df = pd.read_csv('HalveSediment_20M-Summary12.csv')
 
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
