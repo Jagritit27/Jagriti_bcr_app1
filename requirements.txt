@@ -45,7 +45,7 @@ parso==0.8.3
 pickleshare==0.7.5
 Pillow==9.5.0
 pip-upgrader==1.4.15
-pipreqs==0.4.13
+pipreqs==0.4.11
 platformdirs==3.5.3
 plotly==5.15.0
 pluggy==1.0.0
