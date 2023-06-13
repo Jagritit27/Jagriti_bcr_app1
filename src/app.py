@@ -23,7 +23,8 @@ from IPython.display import HTML
 from dash import Dash, dcc, html, Input, Output, dash_table
 from dash.exceptions import PreventUpdate
 
-df = pd.read_csv('D:/ARI_BCR_ALL/Scenarios/halvesediment/HalveSediment_20M-Summary12.csv')
+df = pd.read_csv('HalveSediment_20M-Summary12.csv')
+
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc_css])
